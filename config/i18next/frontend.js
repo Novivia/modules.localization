@@ -15,7 +15,6 @@ export default function getFrontendI18nextConfiguration({
     "navigator",
   ],
   enableLocalStorage = true,
-  instantInitialization = true,
   localStorageExpirationTime = 86400000,
   localStoragePrefix = "i18n_",
   ...commonSettings,

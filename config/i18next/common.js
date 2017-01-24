@@ -13,7 +13,7 @@ export default function getCommonI18nextConfiguration({
   detectionQueryStringVariable = "lang",
   fallbackLanguage = "en",
   fallbackNamespace,
-  instantInitialization,
+  instantInitialization = true,
   interpolationPrefix,
   interpolationSuffix,
   interpolationWrapper = "__",
@@ -24,7 +24,7 @@ export default function getCommonI18nextConfiguration({
   namespaceList = [],
   namespaceSeparator = "::",
   returnObjects = true,
-  ...i18nextOptions,
+  ...i18nextOptions
 } = {}) {
   const configuration = {
     customLoad: customLoader,
