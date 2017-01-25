@@ -28,7 +28,8 @@
     "compileTargets": {},
   },
   "scripts": {
-    "build": "novivia-builder build",
+    "build": "npm run build-currencies && novivia-builder build",
+    "build-currencies": "node ./scripts/build-currencies-entry.js",
     "lint": "novivia-linter lint .",
     "open-source": "open-source",
     "pub": "novivia-builder publish",
@@ -37,22 +38,25 @@
   },
   "devDependencies": {
     // Novivia dependencies.
+    "@novivia/babel": "^1.0.0",
     "@novivia/build-module": "^0.5.2",
     "@novivia/linter": "^1.10.1",
     "@novivia/open-sourcer": "^0.1.2",
     "@novivia/tester": "^1.0.0",
 
     // npm dependencies.
+    "world-currencies": "0.0.6",
+    "fs-extra": "^2.0.0",
   },
   "dependencies": {
     // npm dependencies.
-    // "lodash": "^4.17.2",
     "accounting-js": "^1.1.1",
     "common-tags": "^1.4.0",
-    "i18next": "^6.0.1",
+    "i18next": "^6.0.2",
     "i18next-browser-languagedetector": "^1.0.1",
     "i18next-callback-backend": "^1.0.0-alpha.1",
     "i18next-express-middleware": "^1.0.2",
     "i18next-localstorage-cache": "^0.3.0",
+    "lodash": "^4.17.4",
   },
 }
