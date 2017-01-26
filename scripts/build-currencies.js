@@ -7,7 +7,7 @@ const newCurrencies = Object.keys(currencies).reduce(
 
     newCurrencies[currencyCCA3] = {
       currency: {
-        currency.iso.code,
+        // currency.iso.code,
       },
     };
 
