@@ -49,6 +49,7 @@
   "dependencies": {
     // npm dependencies.
     "common-tags": "^1.4.0",
+    "filesize": "^3.5.4",
     "i18next": "^6.0.2",
     "i18next-browser-languagedetector": "^1.0.1",
     "i18next-callback-backend": "^1.0.0-alpha.1",
@@ -56,5 +57,7 @@
     "i18next-localstorage-cache": "^0.3.0",
     "intl": "^1.2.5",
     "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
   },
 }
