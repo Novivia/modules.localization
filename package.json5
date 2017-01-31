@@ -27,6 +27,9 @@
     // Force compilation with frontend compatibility.
     "compileTargets": {},
   },
+  "novivia-tester": {
+    "environment": "jsdom",
+  },
   "scripts": {
     "build": "npm run build-currencies && novivia-builder build",
     // "build-currencies": "node ./scripts/build-currencies-entry.js",
