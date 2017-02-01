@@ -17,6 +17,7 @@ export default function getCommonI18nextConfiguration({
   interpolationPrefix,
   interpolationSuffix,
   interpolationWrapper = "__",
+  language,
   languageWhitelist = [
     "en",
     "fr",
@@ -41,6 +42,7 @@ export default function getCommonI18nextConfiguration({
       prefix: interpolationPrefix || interpolationWrapper,
       suffix: interpolationSuffix || interpolationWrapper,
     },
+    lng: language,
     ns: namespaceList,
     nsSeparator: namespaceSeparator,
     returnObjects,
