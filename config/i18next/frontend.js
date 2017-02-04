@@ -17,11 +17,10 @@ export default function getFrontendI18nextConfiguration({
   enableLocalStorage = true,
   localStorageExpirationTime = 86400000,
   localStoragePrefix = "i18n_",
-  ...commonSettings,
+  ...commonSettings
 } = {}) {
   const frontendConfiguration = getCommonConfiguration({
     detectionOrder,
-    instantInitialization,
     ...commonSettings,
   });
 
