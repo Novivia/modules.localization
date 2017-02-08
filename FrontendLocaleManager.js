@@ -3,4 +3,4 @@
  * All rights reserved.
  */
 
-export * from "./lib";
+export default from "./lib/FrontendLocaleManager";

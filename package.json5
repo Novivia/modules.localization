@@ -21,7 +21,8 @@
   "main": "index.js",
   "novivia-builder": {
     "babelPatterns": [
-      "**/*.js",
+      "config/**/*.js",
+      "FrontendLocaleManager.js",
     ],
 
     // Force compilation with frontend compatibility.
@@ -31,8 +32,7 @@
     "environment": "jsdom",
   },
   "scripts": {
-    "build": "npm run build-currencies && novivia-builder build",
-    // "build-currencies": "node ./scripts/build-currencies-entry.js",
+    "build": "novivia-builder build",
     "lint": "novivia-linter lint .",
     "open-source": "open-source",
     "pub": "novivia-builder publish",
@@ -46,8 +46,6 @@
     "@novivia/linter": "^1.10.1",
     "@novivia/open-sourcer": "^0.1.2",
     "@novivia/tester": "^1.0.0",
-
-    // npm dependencies.
   },
   "dependencies": {
     // npm dependencies.
