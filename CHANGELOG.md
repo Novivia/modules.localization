@@ -1,6 +1,6 @@
 # Versions
 
-## v0.1.0 - ()
+## v0.1.0 - (17/02/2017)
 
 * Initial useable version.
 
