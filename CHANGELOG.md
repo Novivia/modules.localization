@@ -1,5 +1,10 @@
 # Versions
 
+## v0.0.2 - (16/02/2017)
+
+* Pre-release version.
+
+
 ## v0.0.1 - (08/02/2017)
 
 * Initial version.

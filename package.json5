@@ -51,7 +51,7 @@
     // npm dependencies.
     "common-tags": "^1.4.0",
     "filesize": "^3.5.4",
-    "i18next": "^6.1.1",
+    "i18next": "^7.0.0",
     "i18next-browser-languagedetector": "^1.0.1",
     "i18next-callback-backend": "^1.0.0-alpha.1",
     "i18next-express-middleware": "^1.0.2",
