@@ -1,7 +1,7 @@
 {
   "name": "@novivia/localization",
   "role": "localization",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "node": ">=4",
     "npm": ">=3",
@@ -45,13 +45,13 @@
     "@novivia/build-module": "^0.5.2",
     "@novivia/linter": "^1.10.1",
     "@novivia/open-sourcer": "^0.1.2",
-    "@novivia/tester": "^1.0.0",
+    "@novivia/tester": "^1.1.0",
   },
   "dependencies": {
     // npm dependencies.
     "common-tags": "^1.4.0",
     "filesize": "^3.5.4",
-    "i18next": "^7.0.0",
+    "i18next": "^7.1.0",
     "i18next-browser-languagedetector": "^1.0.1",
     "i18next-callback-backend": "^1.0.0-alpha.1",
     "i18next-express-middleware": "^1.0.2",
