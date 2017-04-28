@@ -24,6 +24,7 @@ export default function getCommonI18nextConfiguration({
   ],
   namespaceList = [],
   namespaceSeparator = "::",
+  nonExplicitWhitelist = true,
   returnObjects = true,
   ...i18nextOptions
 } = {}) {
@@ -43,6 +44,7 @@ export default function getCommonI18nextConfiguration({
       suffix: interpolationSuffix || interpolationWrapper,
     },
     lng: language,
+    nonExplicitWhitelist,
     ns: namespaceList,
     nsSeparator: namespaceSeparator,
     returnObjects,
