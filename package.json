@@ -4,53 +4,44 @@
   "version": "0.1.3",
   "engines": {
     "node": ">=4",
-    "npm": ">=3",
+    "npm": ">=3"
   },
   "license": "SEE LICENSE IN LICENSE.md",
-  "publishConfig": {
-    "registry": "https://npm.novivia.com",
-  },
   "description": "Novivia localization utilities.",
   "authors": [
-    "Mathieu M-Gosselin <mathieumg@novivia.com>",
+    "Mathieu M-Gosselin <mathieumg@novivia.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git.novivia.com/nov/modules.localization"
+    "url": "git@github.com:Novivia/modules.localization.git"
   },
   "main": "index.js",
   "novivia-builder": {
     "babelPatterns": [
       "config/**/*.js",
-      "FrontendLocaleManager.js",
+      "FrontendLocaleManager.js"
     ],
-
-    // Force compilation with UglifyJS compatibility.
     "compileTargets": {
-      "uglify": true,
-    },
+      "uglify": true
+    }
   },
   "novivia-tester": {
-    "environment": "jsdom",
+    "environment": "jsdom"
   },
   "scripts": {
     "build": "novivia-builder build",
     "lint": "novivia-linter lint .",
-    "open-source": "open-source",
     "pub": "novivia-builder publish",
     "release": "novivia-builder release",
-    "test": "novivia-tester",
+    "test": "novivia-tester"
   },
   "devDependencies": {
-    // Novivia dependencies.
     "@novivia/babel": "^1.0.2",
     "@novivia/build-module": "^0.5.2",
     "@novivia/linter": "^1.10.1",
-    "@novivia/open-sourcer": "^0.1.2",
-    "@novivia/tester": "^1.1.0",
+    "@novivia/tester": "^1.1.0"
   },
   "dependencies": {
-    // npm dependencies.
     "common-tags": "^1.4.0",
     "filesize": "^3.5.6",
     "i18next": "^8.0.0",
@@ -61,6 +52,6 @@
     "intl": "^1.2.5",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
-    "moment-timezone": "^0.5.13",
-  },
+    "moment-timezone": "^0.5.13"
+  }
 }
