@@ -3,4 +3,6 @@
  * All rights reserved.
  */
 
-export * from "./lib";
+// FIXME: https://github.com/babel/babel/issues/2877
+// export * from "./lib";
+module.exports = require("./lib");

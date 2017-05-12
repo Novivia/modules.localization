@@ -1,5 +1,11 @@
 # Versions
 
+## v0.1.3 - (12/05/2017)
+
+* The `nonExplicitWhitelist` language setting now properly defaults to `false`.
+* Addressed a compilation issue with the build.
+
+
 ## v0.1.2 - (28/04/2017)
 
 * Updated dependencies:

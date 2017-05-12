@@ -24,7 +24,7 @@ export default function getCommonI18nextConfiguration({
   ],
   namespaceList = [],
   namespaceSeparator = "::",
-  nonExplicitWhitelist = true,
+  nonExplicitWhitelist = false,
   returnObjects = true,
   ...i18nextOptions
 } = {}) {
